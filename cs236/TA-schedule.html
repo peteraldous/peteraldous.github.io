@@ -28,16 +28,14 @@
 		padding: 5px;
 	}
 	.busy { background-color: #FFDDDD; }
-	.help {
-		background-color: #DDFFFF;
-		font-weight: bold;
-	}
+	.help { background-color: #DDFFFF; }
+	.teaching { font-weight: bold; }
 </style>
 </head>
 
 <body>
 <div id="body_container">
-<p>Times when no TAs are available are colored in <span class="busy">red</span> and times when TAs offer help sessions are colored in <span class="help">blue with bold text</span>.</p>
+<p>Times when no TAs are available are colored in <span class="busy">red</span> and times when TAs offer help sessions are colored in <span class="help">blue</span>. The TA giving the help session is <span class="help"><span class="teaching">bolded</span></span>.</p>
 
 <table>
 	<tr>
@@ -60,7 +58,7 @@
 		<th>9:00 AM</th>
 		<td>Jason<br>Joshua</td>
 		<td>Jason<br>Timnah</td>
-		<td class="help">Jason<br>Joshua</td>
+		<td class="help">Jason<br><span class="teaching">Joshua</span></td>
 		<td>Joshua<br>Timnah</td>
 		<td>Jason<br>Joshua<br>Dallin</td>
 	</tr>
@@ -69,12 +67,12 @@
 		<td>Jason<br>Timnah</td>
 		<td>Jason<br>Timnah</td>
 		<td>Jason<br>Timnah</td>
-		<td class="help">Joshua<br>Timnah</td>
-		<td class="help">Jason<br>Dallin<br>Timnah</td>
+		<td class="help">Joshua<br><span class="teaching">Timnah</span></td>
+		<td class="help">Jason<br><span class="teaching">Dallin</span><br>Timnah</td>
 	</tr>
 	<tr>
 		<th>11:00 AM</th>
-		<td class="help">Jason<br>Timnah</td>
+		<td class="help"><span class="teaching">Jason</span><br>Timnah</td>
 		<td class="busy">DEVOTIONAL</td>
 		<td>Jason<br>Timnah</td>
 		<td>Timnah</td>
@@ -91,7 +89,7 @@
 	<tr>
 		<th>1:00 PM</th>
 		<td class="busy">CLASS</td>
-		<td class="help">Joshua<br>Dallin</td>
+		<td class="help"><span class="teaching">Joshua</span><br>Dallin</td>
 		<td class="busy">CLASS</td>
 		<td>Dallin</td>
 		<td class="busy">CLASS</td>
@@ -106,19 +104,19 @@
 	</tr>
 	<tr>
 		<th>3:00 PM</th>
-		<td class="help">Sean<br>Timnah</td>
-		<td>Joshua<br>Sean</td>
-		<td class="help">Sean<br>Timnah</td>
-		<td>Jason<br>Sean</td>
+		<td>Sean<br>Timnah</td>
+		<td class="help">Joshua<br><span class="teaching">Sean</span></td>
+		<td>Sean<br>Timnah</td>
+		<td class="help"><span class="teaching">Jason</span><br>Sean</td>
 		<td>Sean<br>Timnah</td>
 	</tr>
 	<tr>
 		<th>4:00 PM</th>
-		<td class="help">Joshua<br>Dallin<br>Sean</td>
+		<td class="help">Joshua<br>Dallin<br><span class="teaching">Sean</span></td>
 		<td>Joshua<br>Sean</td>
-		<td class="help">Joshua<br>Dallin<br>Sean<br>Timnah</td>
+		<td class="help">Joshua<br><span class="teaching">Dallin</span><br>Sean<br>Timnah</td>
 		<td>Jason<br>Sean</td>
-		<td class="help">Sean<br>Timnah</td>
+		<td class="help">Sean<br><span class="teaching">Timnah</span></td>
 	</tr>
 	<tr>
 		<th>5:00 PM</th>
