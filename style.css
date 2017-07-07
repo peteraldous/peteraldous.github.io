@@ -8,3 +8,4 @@
  a {color: #36C; text-decoration: none;} a:hover {color: #36F; text-decoration: underline;}
  #body_container {border-radius: 15px; border: 3px solid #EDEDED; background-color: #FFFFFF; margin: 0px auto; padding: 5px 14px 14px 14px; text-align: left; width: 600px;}
  li { margin: 0px 0px 10px 0px; }
+ table,th,td { border: 1px solid black; border-collapse: collapse; padding: 5px;}
