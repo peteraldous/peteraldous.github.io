@@ -1,0 +1,20 @@
+@Article{Nakade2019,
+author="Nakade, Radha
+and Mercer, Eric
+and Aldous, Peter
+and Storey, Kyle
+and Ogles, Benjamin
+and Hooker, Joshua
+and Powell, Sheridan Jacob
+and McCarthy, Jay",
+title="Model-checking task-parallel programs for data-race",
+journal="Innovations in Systems and Software Engineering",
+year="2019",
+month="May",
+day="18",
+abstract="Many of the correctness properties afforded by task-parallel programming models such as OpenMP, Cilk, X10, Chapel, Habanero, etc. rely on data-race freedom. The research in this paper studies data-race in the context of these models with the intent to prove with model checking its absence on any feasible schedule for a given input. The paper presents the computation graph as a representation of a happens-before relation that additionally tracks memory accesses with a quadratic algorithm to detect data-race on the graph. It then shows how the graph is constructed from an execution of a task-parallel program and proves that under a fixed order of mutual exclusion, if a schedule with a data-race exists in the program, then a data-race is manifest in the computation graph. The paper then defines a model checking algorithm that enumerates all orders of mutual exclusion to prove data-race freedom over all schedules on the given input. The approach is evaluated in a Java implementation of Habanero using the JavaPathfinder model checker. The results, when compared to other data-race detectors including one based on vector clocks, show that this new approach is more efficient than existing JavaPathfinder solutions and is comparable to the vector clock solution in the absence of data-race but slower in the presence of data-race since the vector clock algorithm is on-the-fly while the new approach is not. The results also show that the new approach avoids the memory overhead of vector clocks when there are many tasks and objects to track.",
+issn="1614-5054",
+doi="10.1007/s11334-019-00343-5",
+url="https://doi.org/10.1007/s11334-019-00343-5"
+}
+
