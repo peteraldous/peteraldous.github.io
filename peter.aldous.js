@@ -7,8 +7,8 @@ var Maybe = {} ;
 
 Maybe.emailme = function (text) {
   var a='a';
-  if (!text) text = a + 'l' + 'd' + 'ou' + 's' + '@cs.b' + 'y' + 'u.ed' + 'u' ;
-  document.write('<' + a + ' href="m' + a + 'i'+'lto:'+a+'ldo' + 'us' + '@c'+'s.by' + 'u.ed'+'u">'+text+'</a>');
+  if (!text) text = 'p' + a + 'l' + 'd' + 'ou' + 's' + '@gra' + 'm' + 'mat' + 'ech.' + 'com' ;
+  document.write('<' + a + ' href="m' + a + 'i'+'lto:p'+a+'ldo' + 'us' + '@gr'+'amm' + 'ate'+'ch.com">'+text+'</a>');
 } ;
 
 Maybe.email = function (account,domain,text) {
